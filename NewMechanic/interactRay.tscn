@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://cor130ew7c68q"]
+
+[ext_resource type="Script" path="res://NewMechanic/interact_ray.gd" id="1_isl6v"]
+
+[node name="InteractRay" type="RayCast3D"]
+target_position = Vector3(0, 0, -4)
+script = ExtResource("1_isl6v")
+
+[node name="Prompt" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = 4.0
+offset_right = 577.0
+offset_bottom = 60.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_outline_color = Color(0.0960443, 0.0624563, 0.0132124, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 16
+text = "Interact
+[e]"
+horizontal_alignment = 1
